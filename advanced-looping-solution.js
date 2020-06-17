@@ -68,7 +68,7 @@ biggestNumberInArray3(array3)
 
 // Question #2:
 // Write a function checkBasket() that lets you know if the item is in the basket or not
-amazonBasket = {
+const amazonBasket = {
   glasses: 1,
   books: 2,
   floss: 100
