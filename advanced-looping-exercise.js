@@ -74,7 +74,10 @@ const amazonBaskettt = {
   floss: 100
 }
 
+
+//In parameter you put in the basket that you want to check and the item that you are looking for
 function checkBasket(basket, lookingFor){
+//The item in the for in loop takes the value of each item in the basket and the if statement compares them to the lookingFor string that you passed in
   for(item in basket){
     if(item === lookingFor){
       console.log(`${lookingFor} is in your basket`)
