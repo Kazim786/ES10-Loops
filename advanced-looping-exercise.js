@@ -57,12 +57,29 @@ function biggestNumberInArray3(arr) {
 
 // Question #2:
 // Write a function checkBasket() that lets you know if the item is in the basket or not
-amazonBasket = {
+// amazonBasket = {
+//   glasses: 1,
+//   books: 2,
+//   floss: 100
+// }
+
+// function checkBasket(basket, lookingFor) {
+
+// }
+
+
+const amazonBaskettt = {
   glasses: 1,
   books: 2,
   floss: 100
 }
 
-function checkBasket(basket, lookingFor) {
-
-}
+function checkBasket(basket, lookingFor){
+  for(item in basket){
+    if(item === lookingFor){
+      console.log(`${lookingFor} is in your basket`)
+    } else{
+      console.log(`${lookingFor} does not exist in your basket`)
+    }
+  }}
+  checkBasket(amazonBaskettt, jewelry)
